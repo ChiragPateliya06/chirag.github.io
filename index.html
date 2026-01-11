@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag | Personal Portfolio</title>
+    <meta name="description" content="Personal introduction and portfolio of Chirag.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="background-glob"></div>
+    <div class="background-glob-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">Chirag.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Chirag</h1>
+                <p class="tagline">CS Student | Aspiring Software Developer</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Let's Talk</a>
+                    <a href="#about" class="btn secondary">More About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a motivated Computer Science student with a strong passion for software development. My
+                        journey is driven by a curiosity to understand how things work and a desire to build impactful
+                        solutions.</p>
+                    <p>With a foundation in Python and Web Design, I am constantly learning and refining my skills to
+                        transition from a student to a professional software developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i data-lucide="terminal"></i>
+                    <h3>Python Programming</h3>
+                    <p>Core Python, OOP, Logic Building</p>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="layout"></i>
+                    <h3>Web Design</h3>
+                    <p>HTML5, CSS3, Basic JS</p>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="graduation-cap"></i>
+                    <h3>Computer Science</h3>
+                    <p>Data Structures, Algorithms, Theory</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+            <a href="mailto:cpateliya006@gmail.com" class="btn primary">Say Hello</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chirag. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
